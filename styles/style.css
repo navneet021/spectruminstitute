@@ -10,22 +10,26 @@
   background: #0c0c75;
   color: white;
 }
-/*# sourceMappingURL=style.css.map */
-body {
+
+#testimonials body {
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  background-color: rgb(233, 150, 150);
-  font-family: 'Open Sans'
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e99696;
+  font-family: 'Open Sans';
 }
 
-#demo {
+#testimonials #demo {
   background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
-  max-width: 900px;
-  margin: auto
+  max-width: 1000px;
+  margin: auto;
 }
 
-.carousel-caption {
+#testimonials .carousel-caption {
   position: initial;
   z-index: 10;
   padding: 5rem 8rem;
@@ -34,11 +38,11 @@ body {
   font-size: 1.2rem;
   font-style: italic;
   font-weight: bold;
-  line-height: 2rem
+  line-height: 2rem;
 }
 
-@media(max-width:767px) {
-  .carousel-caption {
+@media (max-width: 767px) {
+  #testimonials .carousel-caption {
     position: initial;
     z-index: 10;
     padding: 3rem 2rem;
@@ -47,59 +51,65 @@ body {
     font-size: 0.7rem;
     font-style: italic;
     font-weight: bold;
-    line-height: 1.5rem
+    line-height: 1.5rem;
   }
 }
 
-.carousel-caption img {
+#testimonials .carousel-caption img {
   width: 6rem;
   border-radius: 5rem;
-  margin-top: 2rem
+  margin-top: 2rem;
 }
 
-@media(max-width:767px) {
-  .carousel-caption img {
+@media (max-width: 767px) {
+  #testimonials .carousel-caption img {
     width: 4rem;
     border-radius: 4rem;
-    margin-top: 1rem
+    margin-top: 1rem;
   }
 }
 
-#image-caption {
+#testimonials #image-caption {
   font-style: normal;
   font-size: 1rem;
-  margin-top: 0.5rem
+  margin-top: 0.5rem;
 }
 
-@media(max-width:767px) {
-  #image-caption {
+@media (max-width: 767px) {
+  #testimonials #image-caption {
     font-style: normal;
     font-size: 0.6rem;
-    margin-top: 0.5rem
+    margin-top: 0.5rem;
   }
 }
 
-i {
-  background-color: rgb(223, 56, 89);
-  padding: 1.4rem
+#testimonials i {
+  background-color: #df3859;
+  padding: 1.4rem;
 }
 
-@media(max-width:767px) {
-  i {
-    padding: 0.8rem
+@media (max-width: 767px) {
+  #testimonials i {
+    padding: 0.8rem;
   }
 }
 
-.carousel-control-prev {
-  justify-content: flex-start
+#testimonials .carousel-control-prev {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.carousel-control-next {
-  justify-content: flex-end
+#testimonials .carousel-control-next {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+#testimonials .carousel-control-prev,
+#testimonials .carousel-control-next {
+  -webkit-transition: none;
   transition: none;
-  opacity: unset
+  opacity: unset;
 }
+/*# sourceMappingURL=style.css.map */
