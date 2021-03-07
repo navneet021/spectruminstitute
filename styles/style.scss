@@ -4,11 +4,13 @@
     }
 } 
 
-#contact-section{
-    .contact-us{
-        display: flex;
-        .card{
-            border: none;
-        }
+.contact-section{
+    .left-box{
+        padding: 0 80px;
+    }
+    .right-box{
+        background: #0c0c75;
+        color: white;
     }
 }
+
