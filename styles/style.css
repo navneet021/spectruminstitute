@@ -1,0 +1,14 @@
+#nav-section .container {
+  max-width: 1330px;
+}
+
+#contact-section .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact-section .contact-us .card {
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+#nav-section{
+    .container{
+        max-width: 1330px;
+    }
+} 
+
+#contact-section{
+    .contact-us{
+        display: flex;
+        .card{
+            border: none;
+        }
+    }
+}

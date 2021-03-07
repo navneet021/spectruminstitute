@@ -9,55 +9,63 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+    <link rel="stylesheet" href="styles/style.css">
     <title>Spectrum Institute Of Science</title>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="images/temp.png" width="100" height="30" alt="">
-        </a>
+<section id='nav-section'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/temp.png" width="100" height="30" alt="">
+                </a>
+            </nav>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Faculty<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Students</a>
+                    </li>
+        
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+        
+                </ul>
+            </div>
+        </div>
     </nav>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Faculty<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Students</a>
-            </li>
-
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Contact Us</a>
-            </li>
-
-        </ul>
-    </div>
-</nav>
+</section>
 
 
-<div class="contact-us">
-    <div class="card call-us" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Call us </h5>
-            <a href="tel:+918826153726" class="btn btn-primary">8826153726</a>
+<section id="contact-section">
+    <div class="contact-us">
+        <div class="card call-us" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Call us </h5>
+                <a href="tel:+918826153726" class="btn btn-primary">8826153726</a>
+            </div>
+        </div>
+        <div class="card mail-us" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Write to us</h5>
+                <a href="mailto:nkatiyar23@gmail.com" class="btn btn-primary">nkatiyar23@gmail.com</a>
+            </div>
+        </div>
+        <div class="card address" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">address</h5>
+                <a href="https://www.google.com/maps/dir/28.655495,77.4357733/Spectrum+Institute+of+science,+Pocket+H,+Sarita+Vihar,+New+Delhi,+Delhi+110076/@28.6006774,77.183687,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390ce78a773570a9:0xa9692a02bf2da968!2m2!1d77.2918741!2d28.5347144" class="btn btn-primary">204 pocket h sarita vihar</a>
+            </div>
         </div>
     </div>
-    <div class="card mail-us" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Write to us</h5>
-            <a href="mailto:nkatiyar23@gmail.com" class="btn btn-primary">nkatiyar23@gmail.com</a>
-        </div>
-    </div>
-    <div class="card address" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">address</h5>
-            <a href="https://www.google.com/maps/dir/28.655495,77.4357733/Spectrum+Institute+of+science,+Pocket+H,+Sarita+Vihar,+New+Delhi,+Delhi+110076/@28.6006774,77.183687,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390ce78a773570a9:0xa9692a02bf2da968!2m2!1d77.2918741!2d28.5347144" class="btn btn-primary">204 pocket h sarita vihar</a>
-        </div>
-    </div>
-</div>
+</section>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
