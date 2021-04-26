@@ -25,7 +25,7 @@
 
 #testimonials #demo {
   background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -111,5 +111,9 @@
   -webkit-transition: none;
   transition: none;
   opacity: unset;
+}
+
+#contact-us .form-control {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
