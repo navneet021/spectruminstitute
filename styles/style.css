@@ -24,7 +24,7 @@
 }
 
 #testimonials #demo {
-  background: #f0e7e7;
+  background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
   max-width: 900px;
   margin: auto;
 }
