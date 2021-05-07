@@ -50,10 +50,10 @@ for(let i =0;i<student.length;i++){
     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
     <div class="member">
       <div class="member-img">
-        <img src="./images/bharatKatiyar.jfif" class="img-fluid" alt="" />
+        <img src="./images/bharatKatiyar.jfif" class="img-fluid star-image" alt="" />
       </div>
       <div class="member-info">
-        <h4>${student.name}</h4>
+        <h4>${student[i].name}</h4>
         <span>Experience: 26 years </span>
         <p>
           Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
@@ -62,7 +62,8 @@ for(let i =0;i<student.length;i++){
         </p>
       </div>
     </div>
-    </div>; `
+    </div> `
+    
 }
 
 row.innerHTML=studentList;

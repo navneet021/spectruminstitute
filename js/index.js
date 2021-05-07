@@ -5,7 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-console.log("hello ");
 
 (function() {
     "use strict";
@@ -290,3 +289,25 @@ console.log("hello ");
     });
   
   })();
+
+
+
+  
+
+
+  function sendMail(){
+    var name = document.getElementsByName("name")[0].value;
+    var email = document.getElementsByName("name")[0].value;
+    var subject = document.getElementsByName("subject")[0].value;
+    var message = document.getElementsByName("message")[0].value;
+    
+    Email.send({
+        Host: "smtp.gmail.com",
+        Username: "nkatiyar23@gmail.com",
+        Password: "sqgtkumrrqhrapwh",
+        To: "nkatiyar23@gmail.com",
+        From: "nkatiyar23@gmail.com",
+        Subject: "subject test mail",
+        Body: `${name}`,
+      }).then((message) => alert(message));
+  }
