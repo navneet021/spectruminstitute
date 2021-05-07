@@ -289,7 +289,7 @@
           <br />
           ${message.value}
           `,
-          
-      }).then(() => {
+      }).then((Message) => {
+        alert('Message send successfully')
       });
   }
