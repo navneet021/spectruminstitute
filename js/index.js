@@ -284,7 +284,7 @@
         Password: "sqgtkumrrqhrapwh",
         To: "nkatiyar23@gmail.com",
         From: "nkatiyar23@gmail.com",
-        Subject: "subject test mail",
+        Subject: `Spectrum Institute of Techonology`,
         Body: `${name.value} send you a query about ${subject.value} from ${email.value} 
           <br />
           ${message.value}
