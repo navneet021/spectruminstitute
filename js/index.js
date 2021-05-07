@@ -273,11 +273,11 @@
 
 
   function sendMail(){
-    var name = document.getElementsByName("name")[0].value;
-    var email = document.getElementsByName("name")[0].value;
-    var subject = document.getElementsByName("subject")[0].value;
-    var message = document.getElementsByName("message")[0].value;
-    console.log("called");
+    var name = document.getElementsByName("name")[0];
+    var email = document.getElementsByName("name")[0];
+    var subject = document.getElementsByName("subject")[0];
+    var message = document.getElementsByName("message")[0];
+    console.log("Email send");
     Email.send({
         Host: "smtp.gmail.com",
         Username: "nkatiyar23@gmail.com",
@@ -285,6 +285,11 @@
         To: "nkatiyar23@gmail.com",
         From: "nkatiyar23@gmail.com",
         Subject: "subject test mail",
-        Body: `${name}`,
-      }).then((message) => alert(message));
+        Body: `${name.value} send you a query about ${subject.value} from ${email.value} 
+          <br />
+          ${message.value}
+          `,
+          
+      }).then(() => {
+      });
   }
