@@ -1,69 +1,67 @@
-{/* <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-  <div class="member">
-    <div class="member-img">
-      <img src="./images/bharatKatiyar.jfif" class="img-fluid" alt="" />
-    </div>
-    <div class="member-info">
-      <h4>Bharat Katiyar</h4>
-      <span>Experience: 26 years </span>
-      <p>
-        Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
-        ipsa quae aut. Ipsum exercitationem iure minima enim corporis et
-        voluptate.
-      </p>
-    </div>
+boardStudents = [
+  {
+    name: "name1",
+    chemistry: 100,
+    physics: 100,
+    maths: 100,
+    image: "../images/bharatKatiyar.jfif",
+  },
+  {
+    name: "name2",
+    chemistry: 200,
+    physics: 200,
+    maths: 200,
+    image: "../images/bharatKatiyar.jfif",
+  },
+  {
+    name: "name3",
+    chemistry: 300,
+    image: "../images/bharatKatiyar.jfif",
+  },
+  {
+    name: "name4",
+    chemistry: 400,
+    physics: 400,
+    maths: 400,
+    image: "../images/bharatKatiyar.jfif",
+  },
+  {
+    name: "name5",
+    // chemistry: 500,
+    physics: 500,
+    maths: 500,
+    image: "../images/bharatKatiyar.jfif",
+  },
+  {
+    name: "name6",
+    chemistry: 600,
+    maths: 600,
+    image: "../images/bharatKatiyar.jfif",
+  },
+];
+
+const boardlist = document.getElementsByClassName("d-flex align-content-stretch flex-wrap");
+
+console.log(boardlist);
+
+var boardStudentslist = "";
+for (let i = 0; i < boardStudents.length; i++) {
+  boardStudentslist += `
+    <div class="p-4">
+      <div class="testimonial-content text-center wow slideInUp">
+      <img class="img-circle" src="${boardStudents[i].image}" alt="" />
+      <h4>${boardStudents[i].name}<br /></h4>
+      <p class="subjects" style="display:${
+        boardStudents[i].chemistry ? "block" : "none"
+      };">Chemistry: ${boardStudents[i].chemistry} </p>
+      <p class="subjects" style="display:${
+        boardStudents[i].physics ? "block" : "none"
+      };">Physics: ${boardStudents[i].physics} </p>
+      <p class="subjects" style="display:${
+        boardStudents[i].maths ? "block" : "none"
+      };">Maths: ${boardStudents[i].maths} </p>
   </div>
-</div>; */}
-
-
-const student = [
-    {
-        name:"Aaryan kr Singh",
-        school:"Air Force Sr. Sec School",
-        marks:{
-            Physics:96,
-            Chemistry:99,
-            Math:95
-        },
-        image:'aaryan.jpg'
-    },
-    {
-        name:"Shivangi Aggarwal",
-        school:"SFS",
-        marks:{
-            Physics:95,
-            Chemistry:90,
-            Math:95
-        },
-        image:'shivangi.jpg'
-    }
-]
-
-const row = document.getElementById('starlist');
-
-
-let studentList="";
-for(let i =0;i<student.length;i++){
-    
-    studentList+=
-    `
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-    <div class="member">
-      <div class="member-img">
-        <img src="./images/bharatKatiyar.jfif" class="img-fluid star-image" alt="" />
-      </div>
-      <div class="member-info">
-        <h4>${student[i].name}</h4>
-        <span>Experience: 26 years </span>
-        <p>
-          Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
-          ipsa quae aut. Ipsum exercitationem iure minima enim corporis et
-          voluptate.
-        </p>
-      </div>
-    </div>
-    </div> `
-    
+  </div>`;
 }
 
-row.innerHTML=studentList;
+boardlist[0].innerHTML = boardStudentslist;
