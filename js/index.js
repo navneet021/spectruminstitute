@@ -282,7 +282,7 @@
         Host: "smtp.gmail.com",
         Username: "nkatiyar23@gmail.com",
         Password: "sqgtkumrrqhrapwh",
-        To: "sauravgautam884@gmail.com",
+        To: "nkatiyar23@gmail.com",
         From: "nkatiyar23@gmail.com",
         Subject: "subject test mail",
         Body: `${name}`,
