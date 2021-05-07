@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Spectrum Institute Of Science</title>
   </head>
   <body>
@@ -348,7 +349,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form method="POST" class="form">
+            <div class="form">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -372,11 +373,11 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit" onclick=sendMail()>Send Message</button>
+                  <button type = 'submit' onclick=sendMail()>Send Message</button>
                 </div>
 
               </div>
-            </form>
+            </div>
 
           </div>
 
@@ -385,7 +386,7 @@
       </div>
 
     </section>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
