@@ -4,7 +4,7 @@ boardStudents = [
     chemistry: 100,
     physics: 100,
     maths: 100,
-    image: "../images/bharatKatiyar.jfif",
+    image: "../images/user.jpg",
   },
   {
     name: "name2",
