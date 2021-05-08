@@ -486,6 +486,18 @@ section {
   transform: translateX(5px);
 }
 
+.row .about-image{
+  height: 65vh;
+}
+
+
+@media (max-width: 768px) {
+  .row .about-image {
+    padding-top: 20px;
+    margin: auto;
+  }
+}
+
 /*--------------------------------------------------------------
   # Values
   --------------------------------------------------------------*/
