@@ -875,6 +875,10 @@ section {
   background: #5969f3;
 }
 
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
 
 footer .copyright{
   text-align: center;

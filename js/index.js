@@ -278,11 +278,26 @@
   // });
 })();
 
+const messageform = document.getElementsByClassName('form')[0];
+const button = document.getElementById('submitform');
+button.addEventListener('pointerover', () => {
+    // if(messageform.checkValidity()){
+    //   button.disabled = false;
+    //   button.classList.remove('disabled')
+    //   console.log("called");
+    // }
+    // else{
+    //   console.log("button disabled");
+    // }
+    button.disabled = !messageform.checkValidity();
+});
+
 function sendMail(event) {
   var name = document.getElementsByName("name")[0];
   var email = document.getElementsByName("name")[0];
   var subject = document.getElementsByName("subject")[0];
   var message = document.getElementsByName("message")[0];
+  event.preventDefault();
   Email.send({
     Host: "smtp.gmail.com",
     Username: "nkatiyar23@gmail.com",
