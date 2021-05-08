@@ -752,8 +752,6 @@ section {
 .img-fluid{
   height: 40vh;
 }
-
-
 .align-items-stretch{
   margin:auto;
 }
@@ -870,25 +868,6 @@ section {
   background: #5969f3;
 }
 
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-
 
 footer .copyright{
   text-align: center;
@@ -934,7 +913,7 @@ h2::after {
   margin-top: 40px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #myCarousel {
     width: auto;
     height: auto;
