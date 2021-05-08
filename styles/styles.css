@@ -913,12 +913,6 @@ h2::after {
   margin-top: 40px;
 }
 
-@media (max-width: 768px) {
-  #myCarousel {
-    width: auto;
-    height: auto;
-  }
-}
 
 .carousel {
   width: 650px;
@@ -1027,3 +1021,13 @@ h2::after {
   border: none;
   background: rgb(0, 0, 0)
 }
+  @media (max-width: 768px) {
+    #myCarousel {
+      width: auto;
+      height:max-content;
+    }
+
+    .carousel .item{
+      height: 500px;
+    }
+  }
