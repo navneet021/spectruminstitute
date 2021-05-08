@@ -656,6 +656,7 @@ section {
 .team {
   background: #fff;
   padding: 60px 0;
+  padding-bottom: 60px;
 }
 
 .team .member {
@@ -746,6 +747,15 @@ section {
 .team .member:hover .social {
   right: 8px;
   opacity: 1;
+}
+
+.img-fluid{
+  height: 40vh;
+}
+
+
+.align-items-stretch{
+  margin:auto;
 }
 
 /*--------------------------------------------------------------
@@ -919,6 +929,17 @@ h2::after {
   right: 0;
   bottom: -10px
 } */
+
+#myCarousel{
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  #myCarousel {
+    width: auto;
+    height: auto;
+  }
+}
 
 .carousel {
   width: 650px;
