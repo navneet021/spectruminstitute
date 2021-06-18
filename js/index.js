@@ -302,7 +302,7 @@ function sendMail(event) {
     Host: "smtp.gmail.com",
     Username: "nkatiyar23@gmail.com",
     Password: "sqgtkumrrqhrapwh",
-    To: "nkatiyar23@gmail.com",
+    To: "bharatkatiyar454@gmail.com",
     From: "nkatiyar23@gmail.com",
     Subject: `Spectrum Institute of Techonology`,
     Body: `${name.value} send you a query about ${subject.value} from ${email.value} 
